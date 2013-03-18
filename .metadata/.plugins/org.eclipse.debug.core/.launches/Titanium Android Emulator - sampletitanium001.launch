@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.appcelerator.titanium.mobile.ui.android.simulator.launchConfigurationType">
+<stringAttribute key="ATTR_PROJECT_NAME" value="sampletitanium001"/>
+<stringAttribute key="abi" value="armeabi-v7a"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/sampletitanium001"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="process_factory_id" value="com.appcelerator.titanium.ui.logLevelFilteringProcessFactory"/>
+<stringAttribute key="screen_type" value="WVGA854"/>
+<stringAttribute key="sdk_version" value="Google APIs (Android 4.2.2)"/>
+</launchConfiguration>

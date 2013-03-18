@@ -25,7 +25,7 @@ btn1.addEventListener("click",function(e)
 							top:100,
 							zIndex:1
 						});
-					wion.add(imageView);
+					win.add(imageView);
 				}
 				else if(e.mediaType===Ti.Media.MEDIA_TYPE_VIDEO)
 				{
