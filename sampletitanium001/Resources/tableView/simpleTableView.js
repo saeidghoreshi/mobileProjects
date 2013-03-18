@@ -17,3 +17,33 @@ var DS=
 
 var tableView=Ti.UI.createTableView({data:DS});
 win.add(tableView);
+
+
+tableView.addEventListener("scrollEnd",function(e)
+{
+	var newRowObject={ title:"FUCK U" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:true , hasDetail: false}
+	
+	if(e.contentOffset.y>50)
+	{
+		tableViewSearch.insertRowAfter(2,newRowObject);
+		tableViewSearch.selectRow(3);
+		
+		//add Feedaback
+		Ti.Media.vibrate();
+		var dialog=Ti.UI.createAlertDialog(
+			{
+				title:"My Title",
+				message:"this a sample Box showing up",
+				buttonNames:["Yellow","Surprise me"]
+			});
+		dialog.show();
+		dialog.addEventListener("click",function(e)
+		{	
+			if(e.index===0)
+			{
+				//Do something
+			}
+		});
+	}
+});
+
