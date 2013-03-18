@@ -70,6 +70,11 @@ function ApplicationTabGroup(Window) {
 	var tab23=Ti.UI.createTab({title:"Misc",window:win23});
 	self.addTab(tab23);
 	
+	//Misc 2
+	var win24 =Ti.UI.createWindow({title:"Misc2",backgroundColor:"#FFF",url:"tableView/misc2.js"});
+	var tab24=Ti.UI.createTab({title:"Misc2",window:win24});
+	self.addTab(tab24);
+	
 	//Table View Group 
 	var win23=Ti.UI.createWindow({title:"Table View Group",backgroundColor:"#FFF",url:"tableView/groupTableView.js"});
 	var tab23=Ti.UI.createTab({title:"Group Table View",window:win23});
