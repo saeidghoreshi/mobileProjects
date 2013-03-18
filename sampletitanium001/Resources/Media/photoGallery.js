@@ -1,16 +1,16 @@
 var win=Ti.UI.currentWindow;
 
-//Open Photo Gllery
-var btn2=Ti.UI.createButton(
+
+var btn=Ti.UI.createButton(
 	{
-		title:"Select From Gallery",
+		title:"Select From Photo Gallery",
 		width:150,
 		height:20,
 		top:100,
 		zIndex:2
 	});
-win.add(btn2);
-btn2.addEventListener("click",function(e)
+win.add(btn);
+btn.addEventListener("click",function(e)
 {
 	Ti.Media.openPhotoGallery(
 		{

@@ -85,10 +85,10 @@ function ApplicationTabGroup(Window) {
 	var tab16=Ti.UI.createTab({title:"Capture screen",window:win16});
 	self.addTab(tab16);
 	
-	//MEdia [Capture Screen] 
-	var win15=Ti.UI.createWindow({title:"WIN# Capture Screen",backgroundColor:"#FFF",url:"Media/captureScreen.js"});
-	var tab15=Ti.UI.createTab({title:"Capture Screen",window:win15});
-	self.addTab(tab15);
+	//Media [Photo Gallery] 
+	var win18=Ti.UI.createWindow({title:"WIN# Photo Gallery",backgroundColor:"#FFF",url:"Media/photoGallery.js"});
+	var tab18=Ti.UI.createTab({title:L("Photo GAllery"),window:win18});
+	self.addTab(tab18);
 	
 	//Media [Audio] 
 	var win16=Ti.UI.createWindow({title:"WIN# Audio",backgroundColor:"#FFF",url:"Media/audio.js"});
