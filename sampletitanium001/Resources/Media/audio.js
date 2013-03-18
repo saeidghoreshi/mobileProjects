@@ -21,7 +21,7 @@ win.add(btnRemote);
 
 
 //Note : 
-//cant play local audio and streams remote audio files
+//can't play local audio and streams remote audio files
 var music=Ti.Media.createAudioPlayer();
 btnRemote.addEventListener("click",function(e)
 {

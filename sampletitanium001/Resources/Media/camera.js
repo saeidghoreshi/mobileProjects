@@ -34,6 +34,8 @@ btn1.addEventListener("click",function(e)
 							title:"New Video",
 							backgroundColor:"black",
 						});
+						
+					//Play it on the video player
 					var videoPlayer=Ti.Media.createVideoPlayer(
 						{
 							media:e.media
@@ -45,6 +47,10 @@ btn1.addEventListener("click",function(e)
 						videoPlayer=null; //make it ready for GC
 						w.close();
 					});
+					
+					//Email the taken video			
+					emailDialog.addAttachment(e.media);
+					emailDialog.open();
 					
 				}
 			},
@@ -66,3 +72,23 @@ btn1.addEventListener("click",function(e)
 });
 
 
+
+//Email Action
+var emailDialog=Ti.UI.createEmailDialog(
+{
+		barColor:"#FFCC00",
+		html:true,
+		toRecipients:["Ryan.goreshi@yahoo.com"],
+		subject:"this is a test",
+		messageBody:"Message Body Added"
+});
+emailDialog.addEventListener("complete",function(e)
+{
+	var file=Ti.Filesystem.getFile(Ti.Filesystem.applicationDataDirectory,"capture.png");
+	file.deleteFile();
+	
+	if(e.result==emailDialog.SENT)
+		alert("Email Sent");
+	else
+		alert("Problem sending Email");
+});

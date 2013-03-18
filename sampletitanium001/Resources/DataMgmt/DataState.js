@@ -20,6 +20,9 @@ var label=Ti.UI.createLabel(
 
 win.add(button);
 win.add(label);
+
+
+
 button.addEventListener("click",function(e)
 {
 	//Note

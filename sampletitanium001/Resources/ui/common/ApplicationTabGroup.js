@@ -31,32 +31,32 @@ function ApplicationTabGroup(Window) {
 	self.addTab(tab4);
 	
 	//XHR
-	var win5=Ti.UI.createWindow({title:"WIN#XHR",backgroundColor:"#FFF",url:"xhr.js"});
+	var win5=Ti.UI.createWindow({title:"WIN#XHR",backgroundColor:"#FFF",url:"xhr/xhr.js"});
 	var tab5=Ti.UI.createTab({title:"XHR",window:win5});
 	self.addTab(tab5);
 	
 	//XHRParser
-	var win6=Ti.UI.createWindow({title:"WIN#XHR Parser",backgroundColor:"#FFF",url:"xhrParser.js"});
+	var win6=Ti.UI.createWindow({title:"WIN#XHR Parser",backgroundColor:"#FFF",url:"xhr/xhrParser.js"});
 	var tab6=Ti.UI.createTab({title:"XHR Parser",window:win6});
 	self.addTab(tab6);
 	
 	//Table View
-	var win7=Ti.UI.createWindow({title:"WIN#table View",backgroundColor:"#FFF",url:"tableView.js"});
+	var win7=Ti.UI.createWindow({title:"WIN#table View",backgroundColor:"#FFF",url:"tableView/tableView.js"});
 	var tab7=Ti.UI.createTab({title:"Table View",window:win7});
 	self.addTab(tab7);
 	
 	//Table View Update 
-	var win8=Ti.UI.createWindow({title:"WIN#table View Update Row",backgroundColor:"#FFF",url:"updateTableView.js"});
+	var win8=Ti.UI.createWindow({title:"WIN#table View Update Row",backgroundColor:"#FFF",url:"tableView/updateTableView.js"});
 	var tab8=Ti.UI.createTab({title:"Update Table View",window:win8});
 	self.addTab(tab8);
 	
 	//Table View Delete 
-	var win9=Ti.UI.createWindow({title:"WIN#table View Delete Row",backgroundColor:"#FFF",url:"deleteTableView.js"});
+	var win9=Ti.UI.createWindow({title:"WIN#table View Delete Row",backgroundColor:"#FFF",url:"tableView/deleteTableView.js"});
 	var tab9=Ti.UI.createTab({title:"Delete  Table View",window:win9});
 	self.addTab(tab9);
 	
 	//Animation 
-	var win10=Ti.UI.createWindow({title:"WIN#animation",backgroundColor:"#FFF",url:"animate.js"});
+	var win10=Ti.UI.createWindow({title:"WIN#animation1",backgroundColor:"#FFF",url:"animation/animation1.js"});
 	var tab10=Ti.UI.createTab({title:"Animate Me",window:win10});
 	self.addTab(tab10);
 	
@@ -81,9 +81,9 @@ function ApplicationTabGroup(Window) {
 	self.addTab(tab14);
 	
 	//Media [Capture Screen] 
-	var win16=Ti.UI.createWindow({title:"WIN# Capture screen",backgroundColor:"#FFF",url:"Media/capturescreen.js"});
-	var tab16=Ti.UI.createTab({title:"Capture screen",window:win16});
-	self.addTab(tab16);
+	var win15=Ti.UI.createWindow({title:"WIN# Capture screen",backgroundColor:"#FFF",url:"Media/captureScreen.js"});
+	var tab15=Ti.UI.createTab({title:"Capture screen",window:win15});
+	self.addTab(tab15);
 	
 	//Media [Photo Gallery] 
 	var win18=Ti.UI.createWindow({title:"WIN# Photo Gallery",backgroundColor:"#FFF",url:"Media/photoGallery.js"});

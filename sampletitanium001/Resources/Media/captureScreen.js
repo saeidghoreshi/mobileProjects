@@ -5,7 +5,7 @@ var btn=Ti.UI.createButton(
 		title:"Capture it",
 		width:100,
 		height:20,
-		bottom:0
+		bottom:20
 	});
 win.add(btn);
 btn.addEventListener("click",function(e)

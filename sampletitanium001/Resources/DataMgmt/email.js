@@ -29,6 +29,6 @@ emailDialog.addEventListener("complete",function(e)
 	if(e.result==emailDialog.SENT)
 		alert("Email Sent");
 	else
-		alert("Problem sending Email");
+		alert("Problem sending Email CODE : #"+e.code);
 });
 

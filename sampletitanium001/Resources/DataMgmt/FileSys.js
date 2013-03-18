@@ -11,7 +11,7 @@ win.add(button);
 button.addEventListener("click",function()
 {
 	//Note
-	//IOS only allows data reading and writnf in application Data Directory
+	//IOS only allows data reading and writng in application Data Directory
 	//Temporary data can be stored in temp Directory
 	
 	
@@ -28,7 +28,7 @@ button.addEventListener("click",function()
 		var fileContent=dataFile.read();
 		var newContent=fileContent + " " + "Changed";
 		dataFile.write(newContent);
-		alert("File Upadated");
+		alert("File Changed");
 		
 	}
 	

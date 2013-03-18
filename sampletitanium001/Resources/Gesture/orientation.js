@@ -1,5 +1,16 @@
 var win=Ti.UI.currentWindow;
 
+var labelResult=Ti.UI.createLabel(
+	{
+		width:"auto",
+		height:40,
+		top:0
+	});
+win.add(labelResult);
+
+
+
+
 win.orientationModes=
 [
 	Ti.UI.PORTRAIT,
@@ -10,10 +21,10 @@ win.orientationModes=
 
 Ti.Gesture.addEventListener("orientationchange",function(e)
 {
-	if(e.orientation===1)alert("Portrait" + e.orientation);
-	if(e.orientation===2)alert("Upside portrait " + e.orientation);
-	if(e.orientation===3)alert("Landscape left " + e.orientation);
-	if(e.orientation===4)alert("Landscape right" + e.orientation);
+	if(e.orientation===1)labelResult.text=("Portrait" + e.orientation);
+	if(e.orientation===2)labelResult.text=("Upside portrait " + e.orientation);
+	if(e.orientation===3)labelResult.text=("Landscape left " + e.orientation);
+	if(e.orientation===4)labelResult.text=("Landscape right" + e.orientation);
 });
 
 

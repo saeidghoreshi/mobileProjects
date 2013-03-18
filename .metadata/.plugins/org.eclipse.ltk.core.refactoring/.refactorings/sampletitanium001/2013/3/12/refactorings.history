@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;sampletitanium001/Resources/animation/animate.js&apos; to &apos;animation1.js&apos;" description="Rename resource &apos;animate.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/animation/animate.js" name="animation1.js" stamp="1363634020572" updateReferences="true"/>
+</session>
