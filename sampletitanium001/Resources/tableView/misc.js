@@ -32,6 +32,8 @@ var optionDialogButton=Ti.UI.createButton(
 
 header.add(headerButton);
 header.add(optionDialogButton);
+win.add(header);
+
 
 optionDialogButton.addEventListener("click",function(e)
 {			

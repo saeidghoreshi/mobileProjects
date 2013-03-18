@@ -23,10 +23,11 @@ tableView.addEventListener("scrollEnd",function(e)
 {
 	var newRowObject={ title:"FUCK U" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:true , hasDetail: false}
 	
-	if(e.contentOffset.y>50)
+	if(e.contentOffset.y>0)
 	{
-		tableViewSearch.insertRowAfter(2,newRowObject);
-		tableViewSearch.selectRow(3);
+		
+		tableView.insertRowAfter(2,newRowObject);
+		tableView.selectRow(3);
 		
 		//add Feedaback
 		Ti.Media.vibrate();

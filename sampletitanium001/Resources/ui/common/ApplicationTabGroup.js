@@ -42,7 +42,7 @@ function ApplicationTabGroup(Window) {
 	
 	//simple Table View
 	var win7=Ti.UI.createWindow({title:"Simple table View",backgroundColor:"#FFF",url:"tableView/simpleTableView.js"});
-	var tab7=Ti.UI.createTab({title:"Table View",window:win7});
+	var tab7=Ti.UI.createTab({title:"Simaple Table View",window:win7});
 	self.addTab(tab7);
 	
 	//Table View 1
