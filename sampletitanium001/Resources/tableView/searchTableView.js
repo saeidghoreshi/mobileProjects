@@ -92,11 +92,20 @@ headerButton.addEventListener("click",function(e)
 					},2000);		
 });
 
-
-
-
 //Create Search Bar
-
+var rowData=[];
+for(var i=0;i<DS.length;i++)
+{
+	var row=Ti.UI.createTableViewRow(
+			{
+				title:DS[i].title,
+				laftImage:DS[i].leftImage,
+				className:DS[i].className,
+				hasChild:true,
+				searchFilter:DS[i].title			
+			});
+	rowData.push(row);
+}
 var searchBar=Ti.UI.createSearchBar(
 	{
 		showCancel:true,
@@ -104,7 +113,7 @@ var searchBar=Ti.UI.createSearchBar(
 	}); 
 var tableViewSearch=Ti.UI.createTableView(
 	{
-		data:DS,
+		data:rowData,
 		search:searchBar,
 		filterAttribute:"searchFilter",
 		headerView:header
