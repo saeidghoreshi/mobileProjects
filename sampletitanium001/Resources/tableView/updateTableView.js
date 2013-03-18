@@ -1,7 +1,6 @@
 var win=Ti.UI.currentWindow;
 var tab=Ti.UI.currentTab;
 
-//Table Update Row
 
 var DS2=
 [
@@ -16,27 +15,22 @@ var DS2=
 ];
 
 
-var tableViewUpdate=Ti.UI.createTableView(
-	{
-		data:DS2
-	});
+var tableViewUpdate=Ti.UI.createTableView({data:DS2});
 win.add(tableViewUpdate);
+
 tableViewUpdate.addEventListener("click",function(e)
 {
-	var row=Ti.UI.createTableViewRow(
-		{
-			title:"Row Updated",
-			height:"auto"
-		});
-	//tableViewUpdate.updateRow(e.index,row);
+	var row=Ti.UI.createTableViewRow({title:"Row Updated",height:"auto"});
+	
+	tableViewUpdate.updateRow(e.index,row);
 	//OR all Rows sertData
-	var rowData=
+	/*var rowData=
 	[
 		{title:"All rows Updated" , className:"newRow"},
 		{title:"All rows Updated" , className:"newRow"},
 	];
 	tableViewUpdate.setData(rowData);
-
+	*/
 });
 
 

@@ -1,36 +1,39 @@
-Logger started at: Monday, March 18, 2013 2:09:08 PM PDT
+Logger started at: Monday, March 18, 2013 2:12:25 PM PDT
 Component: com.appcelerator.titanium.mobile
 Version: 1.0.0.1360971337
-[9:8.275] Sent: >21*1363640948274*version<
-[9:8.276] Recv: >1363640948274*2*3.0.2.GA<
-[9:8.277] Sent: >45*1363640948275*option*stepFiltersEnabled*false<
-[9:8.278] Recv: >1363640948275<
-[9:8.278] Sent: >36*1363640948276*option*monitorXHR*true<
-[9:8.279] Recv: >1363640948276<
-[9:8.279] Sent: >45*1363640948277*option*suspendOnFirstLine*false<
-[9:8.280] Recv: >1363640948277<
-[9:8.280] Sent: >46*1363640948278*option*suspendOnExceptions*false<
-[9:8.282] Recv: >1363640948278<
-[9:8.282] Sent: >41*1363640948279*option*suspendOnErrors*true<
-[9:8.282] Recv: >1363640948279<
-[9:8.283] Sent: >43*1363640948280*option*suspendOnKeywords*true<
-[9:8.283] Recv: >1363640948280<
-[9:8.284] Sent: >45*1363640948281*option*bypassConstructors*false<
-[9:8.284] Recv: >1363640948281<
-[9:8.284] Sent: >45*1363640948282*option*stepFiltersEnabled*false<
-[9:8.285] Recv: >1363640948282<
-[9:8.285] Sent: >30*1363640948283*detailFormatters<
-[9:8.286] Recv: >1363640948283<
-[9:8.286] Sent: >20*1363640948284*enable<
-[9:8.286] Recv: >1363640948284<
-[9:8.288] Recv: >threads*created*0*kroll$1<
-[9:8.290] Recv: >log*out*[DEBUG] Analytics is enabled = YES<
-[9:8.296] Recv: >log*out*[DEBUG] Loading: /Users/admin/Library/Application Support/iPhone Simulator/6.1/Applications/A38BA5B9-E6C1-4AC3-92D0-FA24D9624439/sampletitanium001.app/app.js, Resource: app_js<
-[9:8.296] Recv: >scripts*created*217111136|app:/app.js||1|44<
-[9:8.296] Recv: >resumed*0*started<
-[9:8.297] Recv: >log*out*[DEBUG] Loading: /Users/admin/Library/Application Support/iPhone Simulator/6.1/Applications/A38BA5B9-E6C1-4AC3-92D0-FA24D9624439/sampletitanium001.app/ui/handheld/ApplicationWindow.js, Resource: ui/handheld/ApplicationWindow_js<
-[9:8.297] Recv: >scripts*created*217110816|app:/ui/handheld/ApplicationWindow.js||1|305<
-[9:8.298] Recv: >log*out*[DEBUG] Loading: /Users/admin/Library/Application Support/iPhone Simulator/6.1/Applications/A38BA5B9-E6C1-4AC3-92D0-FA24D9624439/sampletitanium001.app/ui/common/ApplicationTabGroup.js, Resource: ui/common/ApplicationTabGroup_js<
-[9:8.298] Recv: >scripts*created*217110592|app:/ui/common/ApplicationTabGroup.js||1|122<
-[9:8.974] Recv: >log*out*[DEBUG] Application booted in 720.013976 ms<
-----------End of file----------
+[12:25.782] Sent: >21*1363641145781*version<
+[12:25.783] Recv: >1363641145781*2*3.0.2.GA<
+[12:25.784] Sent: >45*1363641145782*option*stepFiltersEnabled*false<
+[12:25.785] Recv: >1363641145782<
+[12:25.785] Sent: >36*1363641145783*option*monitorXHR*true<
+[12:25.786] Recv: >1363641145783<
+[12:25.786] Sent: >45*1363641145784*option*suspendOnFirstLine*false<
+[12:25.786] Recv: >1363641145784<
+[12:25.787] Sent: >46*1363641145785*option*suspendOnExceptions*false<
+[12:25.787] Recv: >1363641145785<
+[12:25.788] Sent: >41*1363641145786*option*suspendOnErrors*true<
+[12:25.788] Recv: >1363641145786<
+[12:25.788] Sent: >43*1363641145787*option*suspendOnKeywords*true<
+[12:25.789] Recv: >1363641145787<
+[12:25.789] Sent: >45*1363641145788*option*bypassConstructors*false<
+[12:25.789] Recv: >1363641145788<
+[12:25.790] Sent: >45*1363641145789*option*stepFiltersEnabled*false<
+[12:25.790] Recv: >1363641145789<
+[12:25.790] Sent: >30*1363641145790*detailFormatters<
+[12:25.791] Recv: >1363641145790<
+[12:25.791] Sent: >20*1363641145791*enable<
+[12:25.792] Recv: >1363641145791<
+[12:25.794] Recv: >threads*created*0*kroll$1<
+[12:25.802] Recv: >log*out*[DEBUG] Analytics is enabled = YES<
+[12:25.802] Recv: >log*out*[DEBUG] Loading: /Users/admin/Library/Application Support/iPhone Simulator/6.1/Applications/A38BA5B9-E6C1-4AC3-92D0-FA24D9624439/sampletitanium001.app/app.js, Resource: app_js<
+[12:25.803] Recv: >scripts*created*274156128|app:/app.js||1|44<
+[12:25.803] Recv: >resumed*0*started<
+[12:25.803] Recv: >log*out*[DEBUG] Loading: /Users/admin/Library/Application Support/iPhone Simulator/6.1/Applications/A38BA5B9-E6C1-4AC3-92D0-FA24D9624439/sampletitanium001.app/ui/handheld/ApplicationWindow.js, Resource: ui/handheld/ApplicationWindow_js<
+[12:25.804] Recv: >scripts*created*274155808|app:/ui/handheld/ApplicationWindow.js||1|305<
+[12:25.804] Recv: >log*out*[DEBUG] Loading: /Users/admin/Library/Application Support/iPhone Simulator/6.1/Applications/A38BA5B9-E6C1-4AC3-92D0-FA24D9624439/sampletitanium001.app/ui/common/ApplicationTabGroup.js, Resource: ui/common/ApplicationTabGroup_js<
+[12:25.804] Recv: >scripts*created*274155584|app:/ui/common/ApplicationTabGroup.js||1|122<
+[12:25.960] Recv: >log*out*[DEBUG] Application booted in 203.261018 ms<
+[12:28.775] Recv: >threads*created*1*kroll$2<
+[12:28.776] Recv: >log*out*[DEBUG] Loading: /Users/admin/Library/Application Support/iPhone Simulator/6.1/Applications/A38BA5B9-E6C1-4AC3-92D0-FA24D9624439/sampletitanium001.app/tableView/updateTableView.js, Resource: tableView/updateTableView_js<
+[12:28.777] Recv: >scripts*created*274402112|app:/tableView/updateTableView.js||1|37<
+[12:28.777] Recv: >resumed*1*started<

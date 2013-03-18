@@ -5,7 +5,7 @@ var tab=Ti.UI.currentTab;
 
 var DS2=
 [
-	{ title:"TitleX1" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:false , hasChild:true , hasDetail: false},
+	{ title:"TitleX1" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:false , hasChild:false , hasDetail: true},
 	{ title:"TitleX2" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:false , hasChild:true , hasDetail: true 
 		, js :"external.js" , args:"this is  the custom data" , header:"A-Z" , footer : "Z-A" },
 		
