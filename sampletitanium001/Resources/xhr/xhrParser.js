@@ -2,10 +2,7 @@ var win=Ti.UI.currentWindow;
 
 //Craete table View
 var data=[];
-var tableView=Ti.UI.createTableView(
-	{
-		data:data
-	});
+var tableView=Ti.UI.createTableView({data:data});
 
 var xhr=Ti.Network.createHTTPClient(
 	{

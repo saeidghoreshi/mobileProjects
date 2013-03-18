@@ -18,13 +18,9 @@ var loadLocalBtn=Ti.UI.createButton(
 		title:"load remotly"
 	});
 	
-var webView=Ti.UI.createWebView(
-	{
-		top:0,
-		left:0
-	});
+var webView=Ti.UI.createWebView({top:0,left:0});
 	
-	//Event Listeners
+//Event Listeners
 loadLocalBtn.addEventListener("click",function(e)
 	{
 		webView.url="html/index.html";

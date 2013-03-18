@@ -7,13 +7,13 @@ win.tabBarHidden=true;
 
 var label=Ti.UI.createLabel(
 	{
-		text:"test",
+		text:"Special Window",
 		width:"100",
 		height:50,
 		textAlign:"center"
 	});
 win.add(label);
-win.barColor="red";
+win.barColor="#fefefe";
 
 
 
