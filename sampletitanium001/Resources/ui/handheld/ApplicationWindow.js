@@ -28,6 +28,7 @@ function ApplicationWindow(title) {
 	
 	//touch end button -- Ryan
 	var button2 = Ti.UI.createButton({
+		id:"MyID",
 		height:44,
 		width:200,
 		//backgroundImage:"",

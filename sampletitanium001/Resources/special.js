@@ -1,8 +1,10 @@
 
 var win=Ti.UI.currentWindow;
-//Just for IOS
+
+
+//Just for IOS and canbe used in the config Section also
 win.navBarHidden=true;
-win.tabBarHidden=true;
+win.tabBarHidden=false;
 
 
 var label=Ti.UI.createLabel(
@@ -13,7 +15,8 @@ var label=Ti.UI.createLabel(
 		textAlign:"center"
 	});
 win.add(label);
-win.barColor="#fefefe";
+
+//win.barColor="#fefefe";
 
 
 
