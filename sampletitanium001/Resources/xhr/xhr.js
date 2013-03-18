@@ -23,7 +23,7 @@ var webView=Ti.UI.createWebView({top:0,left:0});
 //Event Listeners
 loadLocalBtn.addEventListener("click",function(e)
 	{
-		webView.url="html/index.html";
+		webView.url="../html/index.html";
 	});
 loadRemoteBtn.addEventListener("click",function(e)
 	{
@@ -31,6 +31,7 @@ loadRemoteBtn.addEventListener("click",function(e)
 	});
 webView.addEventListener("load",function(e)
 	{
+		
 		/*
 		 you can create new buttom on Ti side
 		 and call loaded view js function  like    webView.evalJS("firedFormWebView('msg')"))

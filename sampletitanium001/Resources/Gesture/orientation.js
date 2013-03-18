@@ -43,7 +43,7 @@ Ti.Gesture.addEventListener("shake",function(e)
 //Acceleramater [Need to build in device]
 Ti.Accelerometer.addEventListener("update",function(e)
 {
-	alert("X : "+e.x + " Y : "+e.y+ " Z: "+e.z);
+	labelResult.text=("X : "+e.x + " Y : "+e.y+ " Z: "+e.z);
 });
 
 //Swip
