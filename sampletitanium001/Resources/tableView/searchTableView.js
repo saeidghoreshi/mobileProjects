@@ -4,14 +4,14 @@ var tab=Ti.UI.currentTab;
 
 var DS=
 [
-	{ title:"AitleX1" , header:"Ask me" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:true , hasDetail: true 	},
-	{ title:"AitleX2" 					, leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:true , hasDetail: true  	},
-	{ title:"AitleX3" , header:"Ssk me" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:true , hasDetail: true 	},
-	{ title:"CitleX4" 					, leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:true , hasDetail: true		},
-	{ title:"CitleX5" 					, leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:false, hasChild:false , hasDetail: true	},
-	{ title:"KitleX6" , header:"Bsk me" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:false , hasChild:true , hasDetail: false	},
-	{ title:"KitleX7" 					, leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:false , hasDetail: false	},
-	{ title:"ZitleX8" 					, leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:true , hasDetail: false	}
+	{ title:"AitleX1" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:true , hasDetail: true 	},
+	{ title:"AitleX2" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:true , hasDetail: true  	},
+	{ title:"AitleX3" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:true , hasDetail: true 	},
+	{ title:"CitleX4" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:true , hasDetail: true	},
+	{ title:"CitleX5" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:false, hasChild:false , hasDetail: true	},
+	{ title:"KitleX6" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:false , hasChild:true , hasDetail: false	},
+	{ title:"KitleX7" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:false , hasDetail: false	},
+	{ title:"ZitleX8" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:true , hasDetail: false	}
 ];
 
 
@@ -30,6 +30,14 @@ var headerButton=Ti.UI.createButton(
 		height:40,
 		width:100,
 		left:25,
+		bottom:0
+	});
+var optionDialogButton=Ti.UI.createButton(
+	{
+		title:"Option Dialog",
+		height:40,
+		width:100,
+		left:150,
 		bottom:0,
 		
 		url:"http://google.com",
@@ -37,32 +45,10 @@ var headerButton=Ti.UI.createButton(
 	});
 
 header.add(headerButton);
+header.add(optionDialogButton);
 
-
-headerButton.addEventListener("click",function(e)
-{
-	//Ti.Platform.openURL(e.source.phoneNumber);	// Not in simulator
-	//Ti.Platform.openURL(e.source.url);
-	
-			//indicator
-					var indicator=Ti.UI.createActivityIndicator(
-					{
-							width:"auto",
-							height:"auto",
-							message:"Loading ...",
-							color:"red",
-							style:Ti.UI.iPhone.ActivityIndicatorStyle.DARK
-					});
-					win.add(indicator);
-					indicator.show();
-					
-					setTimeout(function()
-					{
-						indicator.hide();
-					},2000);
-	
-					return;
-	
+optionDialogButton.addEventListener("click",function(e)
+{			
 	//create Option Dialog
 			var optionDialog=Ti.UI.createOptionDialog(
 			{
@@ -84,20 +70,33 @@ headerButton.addEventListener("click",function(e)
 			});
 });
 
-//Create Search Bar
-var rowData=[];
-for(var i=0;i<DS.length;i++)
+headerButton.addEventListener("click",function(e)
 {
-	var row=Ti.UI.createTableViewRow(
-			{
-				title:DS[i].title,
-				laftImage:DS[i].leftImage,
-				className:DS[i].className,
-				hasChild:true,
-				searchFilter:DS[i].title			
-			});
-	rowData.push(row);
-}
+			//indicator
+					var indicator=Ti.UI.createActivityIndicator(
+					{
+							width:"auto",
+							height:"auto",
+							message:"Loading ...",
+							color:"red",
+							style:Ti.UI.iPhone.ActivityIndicatorStyle.DARK
+					});
+					win.add(indicator);
+					indicator.show();
+					
+					setTimeout(function()
+					{
+						indicator.hide();
+						Ti.Platform.openURL(e.source.phoneNumber);	// Not in simulator
+						//Ti.Platform.openURL(e.source.url);
+					},2000);		
+});
+
+
+
+
+//Create Search Bar
+
 var searchBar=Ti.UI.createSearchBar(
 	{
 		showCancel:true,
@@ -108,7 +107,6 @@ var tableViewSearch=Ti.UI.createTableView(
 		data:DS,
 		search:searchBar,
 		filterAttribute:"searchFilter",
-		style:Ti.UI.iPhone.TableViewStyle.GROUPED,
 		headerView:header
 	});
 
