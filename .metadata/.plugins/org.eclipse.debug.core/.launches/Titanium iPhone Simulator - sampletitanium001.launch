@@ -11,6 +11,6 @@
 <booleanAttribute key="retina_display" value="false"/>
 <stringAttribute key="sdk_version" value="6.1"/>
 <stringAttribute key="sim_device" value="iPhone"/>
-<stringAttribute key="simulator_debug_config" value="192.168.0.74:51199"/>
+<stringAttribute key="simulator_debug_config" value="192.168.0.74:51224"/>
 <stringAttribute key="simulator_version" value="6.1"/>
 </launchConfiguration>

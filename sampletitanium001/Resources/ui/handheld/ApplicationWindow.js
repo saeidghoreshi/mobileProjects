@@ -30,8 +30,8 @@ function ApplicationWindow(title) {
 	var button2 = Ti.UI.createButton({
 		height:44,
 		width:200,
-		backgroundImage:"",
-		backgroundSelectedImage:"",
+		//backgroundImage:"",
+		//backgroundSelectedImage:"",
 		title:L("Touchend Test"),
 		bottom:80
 	});
@@ -40,6 +40,12 @@ function ApplicationWindow(title) {
 	button2.addEventListener('touchend', function(e) {
 		alert(e.source.id);
 	});
+	
+	
+	
+	
+	
+	
 	
 	
 	//Create View --Ryan
@@ -78,6 +84,7 @@ function ApplicationWindow(title) {
 		zIndex:1
 		
 	});
+	self.add(imageView1);
 	imageView1.addEventListener("click",function imageEvent(e)
 	{
 		var obj=e.source;
@@ -93,7 +100,7 @@ function ApplicationWindow(title) {
 		label1.text="x : "+e.x + " y: "+e.y;//e.source.id;
 	});
 	
-	//self.add(imageView1);
+	
 	
 	
 	return self;

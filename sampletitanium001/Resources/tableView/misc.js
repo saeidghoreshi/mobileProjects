@@ -2,14 +2,11 @@ var win=Ti.UI.currentWindow;
 var tab=Ti.UI.currentTab;
 
 
-
-
-//Top 70
 function Picker(parent)
 {
 		var picker=Ti.UI.createPicker(
 		{
-				top:70,
+				top:0,
 				selectionIndicator:true
 		});
 		
@@ -27,7 +24,7 @@ function Picker(parent)
 		parent.add(picker);
 	
 }
-//TOP 100
+
 function multiPickerDS()
 {
 	var ds={};
@@ -47,7 +44,7 @@ function multiPickerDS()
 	];
 	return ds;
 }
-//Top 150
+
 function multiPicker(parent)
 {
 		var ds=multiPickerDS();
@@ -84,7 +81,7 @@ function multiPicker(parent)
 		parent.add(picker);
 	
 }
-//Top 200
+
 function createDatePicker(parent)
 {
 	var minDate=new Date();
@@ -104,7 +101,7 @@ function createDatePicker(parent)
 		
 	var datePicker=Ti.UI.createPicker(
 		{
-			top:200,
+			top:300,
 			selectionIndicator:true,
 			type:Ti.UI.PICKER_TYPE_DATE,
 			minDate:minDate,

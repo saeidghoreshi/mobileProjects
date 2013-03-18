@@ -667,3 +667,12 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/admin/.e
 
 !ENTRY com.aptana.js.debug.core 1 0 2013-03-18 15:18:37.879
 !MESSAGE Extension version: 3.0.2.GA; protocol v2
+
+!ENTRY com.aptana.js.debug.core 1 0 2013-03-18 15:26:33.380
+!MESSAGE Extension version: 3.0.2.GA; protocol v2
+
+!ENTRY com.aptana.js.debug.core 1 0 2013-03-18 15:29:45.042
+!MESSAGE Extension version: 3.0.2.GA; protocol v2
+
+!ENTRY com.aptana.js.debug.core 1 0 2013-03-18 15:31:34.091
+!MESSAGE Extension version: 3.0.2.GA; protocol v2

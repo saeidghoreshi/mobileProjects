@@ -132,7 +132,7 @@ function createTextField(parent)
 		{
 			width:200,
 			height:35,
-			top:250,
+			top:150,
 			borderStyle:Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
 			hintText:"this is an option to rnter yout input",
 			keyboardType:Ti.UI.KEYBOARD_PHONE_PAD,
@@ -145,7 +145,7 @@ function createTextField(parent)
 		{
 			width:200,
 			height:55,
-			top:350,
+			top:200,
 			borderStyle:Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
 			hintText:"this is an option to rnter yout input",
 			value:"Default Value",
