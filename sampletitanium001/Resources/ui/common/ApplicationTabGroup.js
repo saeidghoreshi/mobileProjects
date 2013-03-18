@@ -60,6 +60,11 @@ function ApplicationTabGroup(Window) {
 	var tab8=Ti.UI.createTab({title:"Update Table View",window:win8});
 	self.addTab(tab8);
 	
+	//Table View Search 
+	var win22=Ti.UI.createWindow({title:"Table View Search",backgroundColor:"#FFF",url:"tableView/searchTableView.js"});
+	var tab22=Ti.UI.createTab({title:"Search Table View",window:win22});
+	self.addTab(tab22);
+	
 	//Table View Delete 
 	var win9=Ti.UI.createWindow({title:"WIN#table View Delete Row",backgroundColor:"#FFF",url:"tableView/deleteTableView.js"});
 	var tab9=Ti.UI.createTab({title:"Delete  Table View",window:win9});
