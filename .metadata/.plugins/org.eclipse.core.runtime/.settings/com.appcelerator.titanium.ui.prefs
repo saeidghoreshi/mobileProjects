@@ -3,6 +3,7 @@ Application\ installer\:ConsoleLogLevel=Warning
 FastDev\ Process\:ConsoleLogLevel=Info
 LAST_LAUNCH_TIMESTAMP=1363637565810
 eclipse.preferences.version=1
+preference.default.toolbar.visible_org.eclipse.debug.ui.DebugPerspective=true
 preference.show.console.onError=false
 preference.studio.perspective.toolbar.visible=false
 preference.studio.perspective.version=101

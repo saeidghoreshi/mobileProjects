@@ -5,10 +5,10 @@ var tab=Ti.UI.currentTab;
 
 var DS2=
 [
-	{ title:"TitleX1" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:true , hasDetail: true 
-		, customData:"this is  the custom data"},
-	{ title:"TitleX2" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:true , hasDetail: true 
-		, js :"external.js" ,header:"A-Z" , footer : "Z-A" },
+	{ title:"TitleX1" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:false , hasChild:true , hasDetail: false},
+	{ title:"TitleX2" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:false , hasChild:true , hasDetail: true 
+		, js :"external.js" , args:"this is  the custom data" , header:"A-Z" , footer : "Z-A" },
+		
 	{ title:"TitleX3" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:true , hasDetail: true },
 	{ title:"TitleX4" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:true , hasChild:true , hasDetail: true},
 	{ title:"TitleX5" , leftImage:"images/KS_nav_ui.png" , className:"tableRow" , hasCheck:false, hasChild:false , hasDetail: true},
@@ -33,7 +33,7 @@ tableView3.addEventListener("click",function(e)
 				{
 					title:e.source.title,
 					backgroundColor:'#f2f2f2',
-					dataToPass:e.source.dataToPass,
+					dataToPass:e.source.args,
 					url:e.source.js
 				});
 		}
@@ -65,6 +65,6 @@ tableView3.addEventListener("click",function(e)
 
 
 var row=Ti.UI.createTableViewRow({title:"AUTO ROW",height:"auto"});
-//tableView3.appendRow(row);
+tableView3.appendRow(row);
 //OR
-//tableView3.insertRowAfter(2,row);
+tableView3.insertRowAfter(2,row);
