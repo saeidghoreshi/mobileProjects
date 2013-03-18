@@ -1,5 +1,6 @@
 var win=Ti.UI.currentWindow;
 
+
 var btn=Ti.UI.createButton(
 	{
 		title:"Capture it",

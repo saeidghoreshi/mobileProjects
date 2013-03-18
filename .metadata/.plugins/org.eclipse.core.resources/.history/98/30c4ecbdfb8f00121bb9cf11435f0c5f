@@ -61,7 +61,7 @@ function ApplicationTabGroup(Window) {
 	self.addTab(tab10);
 	
 	//Data Management 
-	var win11=Ti.UI.createWindow({title:"WIN# DataMgmt",backgroundColor:"#FFF",url:"DataMgmt/DataState.js"});
+	var win11=Ti.UI.createWindow({title:"WIN#ation",backgroundColor:"#FFF",url:"DataMgmt/DataState.js"});
 	var tab11=Ti.UI.createTab({title:"data Management",window:win11});
 	self.addTab(tab11);
 	
@@ -79,11 +79,6 @@ function ApplicationTabGroup(Window) {
 	var win14=Ti.UI.createWindow({title:"WIN# Camera",backgroundColor:"#FFF",url:"Media/camera.js"});
 	var tab14=Ti.UI.createTab({title:"Camera",window:win14});
 	self.addTab(tab14);
-	
-	//Media [Capture Screen] 
-	var win16=Ti.UI.createWindow({title:"WIN# Capture screen",backgroundColor:"#FFF",url:"Media/capturescreen.js"});
-	var tab16=Ti.UI.createTab({title:"Capture screen",window:win16});
-	self.addTab(tab16);
 	
 	//MEdia [Capture Screen] 
 	var win15=Ti.UI.createWindow({title:"WIN# Capture Screen",backgroundColor:"#FFF",url:"Media/captureScreen.js"});
