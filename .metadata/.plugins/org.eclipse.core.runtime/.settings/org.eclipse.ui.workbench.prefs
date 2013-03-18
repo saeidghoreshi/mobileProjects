@@ -1,6 +1,7 @@
 //org.eclipse.ui.commands/state/com.aptana.editor.common.commands.toggleOutline/org.eclipse.ui.commands.toggleState=false
 ACTIVE_HYPERLINK_COLOR=84,143,160
 HYPERLINK_COLOR=84,143,160
+RUN_IN_BACKGROUND=true
 com.vectrace.mercurialeclipse.ui.colorsandfonts.IgnoredBackgroundColor=20,20,20
 com.vectrace.mercurialeclipse.ui.colorsandfonts.IgnoredForegroundColor=248,248,248
 com.vectrace.mercurialeclipse.ui.colorsandfonts.addedBackgroundColor=37,59,34

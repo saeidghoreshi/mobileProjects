@@ -1,0 +1,48 @@
+Logger started at: Monday, March 18, 2013 1:57:14 PM PDT
+Component: com.appcelerator.titanium.mobile
+Version: 1.0.0.1360971337
+[57:14.817] Sent: >21*1363640234809*version<
+[57:14.819] Recv: >1363640234809*2*3.0.2.GA<
+[57:14.844] Sent: >20*1363640234810*update<
+[57:14.845] Recv: >1363640234810*3.0.2.GA<
+[57:14.846] Sent: >36*1363640234811*option*monitorXHR*true<
+[57:14.846] Recv: >1363640234811<
+[57:14.847] Sent: >45*1363640234812*option*suspendOnFirstLine*false<
+[57:14.847] Recv: >1363640234812<
+[57:14.847] Sent: >46*1363640234813*option*suspendOnExceptions*false<
+[57:14.848] Recv: >1363640234813<
+[57:14.848] Sent: >41*1363640234814*option*suspendOnErrors*true<
+[57:14.848] Recv: >1363640234814<
+[57:14.848] Sent: >43*1363640234815*option*suspendOnKeywords*true<
+[57:14.848] Recv: >1363640234815<
+[57:14.849] Sent: >45*1363640234816*option*bypassConstructors*false<
+[57:14.849] Recv: >1363640234816<
+[57:14.849] Sent: >45*1363640234817*option*stepFiltersEnabled*false<
+[57:14.849] Recv: >1363640234817<
+[57:14.850] Sent: >30*1363640234818*detailFormatters<
+[57:14.850] Recv: >1363640234818<
+[57:14.850] Sent: >20*1363640234819*enable<
+[57:14.851] Recv: >1363640234819<
+[57:14.853] Recv: >threads*created*0*kroll$1<
+[57:14.855] Recv: >log*out*[DEBUG] Analytics is enabled = YES<
+[57:14.857] Recv: >log*out*[DEBUG] Loading: /Users/admin/Library/Application Support/iPhone Simulator/6.1/Applications/A38BA5B9-E6C1-4AC3-92D0-FA24D9624439/sampletitanium001.app/app.js, Resource: app_js<
+[57:14.857] Recv: >scripts*created*216189536|app:/app.js||1|44<
+[57:14.858] Recv: >resumed*0*started<
+[57:14.859] Recv: >log*out*[DEBUG] Loading: /Users/admin/Library/Application Support/iPhone Simulator/6.1/Applications/A38BA5B9-E6C1-4AC3-92D0-FA24D9624439/sampletitanium001.app/ui/handheld/ApplicationWindow.js, Resource: ui/handheld/ApplicationWindow_js<
+[57:14.859] Recv: >scripts*created*216189216|app:/ui/handheld/ApplicationWindow.js||1|305<
+[57:14.860] Recv: >log*out*[DEBUG] Loading: /Users/admin/Library/Application Support/iPhone Simulator/6.1/Applications/A38BA5B9-E6C1-4AC3-92D0-FA24D9624439/sampletitanium001.app/ui/common/ApplicationTabGroup.js, Resource: ui/common/ApplicationTabGroup_js<
+[57:14.861] Recv: >scripts*created*216188992|app:/ui/common/ApplicationTabGroup.js||1|122<
+[57:15.388] Recv: >log*out*[DEBUG] Application booted in 652.444959 ms<
+[57:17.393] Recv: >threads*created*1*kroll$2<
+[57:17.394] Recv: >log*out*[DEBUG] Loading: /Users/admin/Library/Application Support/iPhone Simulator/6.1/Applications/A38BA5B9-E6C1-4AC3-92D0-FA24D9624439/sampletitanium001.app/tableView/tableView2.js, Resource: tableView/tableView2_js<
+[57:17.394] Recv: >scripts*created*216435392|app:/tableView/tableView2.js||1|72<
+[57:17.395] Recv: >resumed*1*started<
+[57:22.327] Recv: >threads*created*2*kroll$3<
+[57:22.328] Recv: >log*out*[DEBUG] Loading: /Users/admin/Library/Application Support/iPhone Simulator/6.1/Applications/A38BA5B9-E6C1-4AC3-92D0-FA24D9624439/sampletitanium001.app/tableView/tableView1.js, Resource: tableView/tableView1_js<
+[57:22.329] Recv: >scripts*created*216436448|app:/tableView/tableView1.js||1|76<
+[57:22.329] Recv: >resumed*2*started<
+[59:45.480] Recv: >threads*created*3*kroll$4<
+[59:45.481] Recv: >log*out*[DEBUG] Loading: /Users/admin/Library/Application Support/iPhone Simulator/6.1/Applications/A38BA5B9-E6C1-4AC3-92D0-FA24D9624439/sampletitanium001.app/external.js, Resource: external_js<
+[59:45.491] Recv: >log*out*[ERROR] Error loading path: /Users/admin/Library/Application Support/iPhone Simulator/6.1/Applications/A38BA5B9-E6C1-4AC3-92D0-FA24D9624439/sampletitanium001.app/external.js, Error Domain=NSCocoaErrorDomain Code=260 "The operation couldn’t be completed. (Cocoa error 260.)" UserInfo=0xb23d2b0 {NSFilePath=/Users/admin/Library/Application Support/iPhone Simulator/6.1/Applications/A38BA5B9-E6C1-4AC3-92D0-FA24D9624439/sampletitanium001.app/external.js, NSUnderlyingError=0xb2958c0 "The operation couldn’t be completed. No such file or directo<
+[59:45.491] Recv: >log*out*[ERROR] Script Error = Could not find the file external.js.<
+----------End of file----------

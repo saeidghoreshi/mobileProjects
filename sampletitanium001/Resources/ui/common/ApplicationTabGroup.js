@@ -40,10 +40,20 @@ function ApplicationTabGroup(Window) {
 	var tab6=Ti.UI.createTab({title:"XHR Parser",window:win6});
 	self.addTab(tab6);
 	
-	//Table View
-	var win7=Ti.UI.createWindow({title:"WIN#table View",backgroundColor:"#FFF",url:"tableView/tableView.js"});
+	//simple Table View
+	var win7=Ti.UI.createWindow({title:"Simple table View",backgroundColor:"#FFF",url:"tableView/simpleTableView.js"});
 	var tab7=Ti.UI.createTab({title:"Table View",window:win7});
 	self.addTab(tab7);
+	
+	//Table View 1
+	var win20=Ti.UI.createWindow({title:"Table View 1",backgroundColor:"#FFF",url:"tableView/tableView1.js"});
+	var tab20=Ti.UI.createTab({title:"Table View 1",window:win20});
+	self.addTab(tab20);
+	
+	//Table View 2
+	var win21=Ti.UI.createWindow({title:"table View 2",backgroundColor:"#FFF",url:"tableView/tableView2.js"});
+	var tab21=Ti.UI.createTab({title:"Table View 2",window:win21});
+	self.addTab(tab21);
 	
 	//Table View Update 
 	var win8=Ti.UI.createWindow({title:"WIN#table View Update Row",backgroundColor:"#FFF",url:"tableView/updateTableView.js"});

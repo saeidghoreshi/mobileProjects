@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench version="2.0">
 <workbenchAdvisor/>
-<window height="790" maximized="true" width="1586" x="-3" y="23">
+<window height="793" maximized="true" width="1600" x="44" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -19,7 +19,7 @@
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.text" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.appcelerator.titanium.ui.ide.tiappEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.appcelerator.titanium.ui.ide.tiappEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.js" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -31,13 +31,18 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.aptana.editor.js" name="ApplicationTabGroup.js" partName="ApplicationTabGroup.js" path="/Users/admin/Documents/workspace/Mobileprojects/sampletitanium001/Resources/ui/common/ApplicationTabGroup.js" title="ApplicationTabGroup.js" tooltip="sampletitanium001/Resources/ui/common/ApplicationTabGroup.js" workbook="DefaultEditorWorkbook">
+<editor id="com.aptana.editor.js" name="ApplicationTabGroup.js" partName="ApplicationTabGroup.js" path="/Users/admin/Documents/workspace/Mobileprojects/sampletitanium001/Resources/ui/common/ApplicationTabGroup.js" title="ApplicationTabGroup.js" tooltip="sampletitanium001/Resources/ui/common/ApplicationTabGroup.js" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sampletitanium001/Resources/ui/common/ApplicationTabGroup.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1125" selectionTopPixel="345"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1494" selectionTopPixel="345"/>
+</editor>
+<editor id="com.appcelerator.titanium.ui.ide.tiappEditor" name="tiapp.xml" partName="TiApp Editor" path="/Users/admin/Documents/workspace/Mobileprojects/sampletitanium001/tiapp.xml" title="TiApp Editor" tooltip="sampletitanium001/tiapp.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sampletitanium001/tiapp.xml"/>
 </editor>
 </editors>
 <views>
@@ -46,7 +51,6 @@
 </view>
 <view id="org.eclipse.search.ui.views.SearchView" partName="Search">
 <viewState isPinned="false">
-<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
 <view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
 </viewState>
 </view>
@@ -57,13 +61,13 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="sampletitanium001">
 <project name="sampletitanium001">
 <selection>
-<element path="/sampletitanium001"/>
+<element path="/sampletitanium001/tiapp.xml"/>
 </selection>
 </project>
 </viewState>
 </view>
 </views>
-<perspectives activePart="com.aptana.explorer.view" activePerspective="com.appcelerator.titanium.ui.StudioPerspective">
+<perspectives activePart="com.appcelerator.titanium.ui.browser.dashboard" activePerspective="com.appcelerator.titanium.ui.StudioPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.appcelerator.titanium.ui.perspectives.TitaniumStudioPerspectiveFactory" id="com.appcelerator.titanium.ui.StudioPerspective" label="Studio"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
@@ -97,9 +101,14 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="com.aptana.explorer.view"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.search.ui.views.SearchView"/>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@1cd04f1" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29986432"/>
+<view id="org.eclipse.search.ui.views.SearchView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="leftArea">
@@ -121,18 +130,15 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.19966443" ratioLeft="238" ratioRight="954" relationship="2" relative="leftArea"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1cd04f1" ratio="0.6431479" ratioLeft="474" ratioRight="263" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.search.ui.views.SearchView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1cd04f1" ratio="0.64168936" ratioLeft="471" ratioRight="263" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="com.aptana.terminal.views.terminal:*" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="com.aptana.webserver.ui.view" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="bottomLeft" ratio="0.74898237" ratioLeft="552" ratioRight="185" relationship="4" relative="leftArea">
@@ -148,180 +154,12 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/sampletitanium001/Resources/Media/camera.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/sampletitanium001/Resources/Media/photoGallery.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/sampletitanium001/Resources/ui/common/ApplicationTabGroup.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/sampletitanium001/Resources/Media/captureScreen.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/sampletitanium001/Resources/Media/captureScreen.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/sampletitanium001/Resources/Media/audio.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/sampletitanium001/Resources/Gesture/orientation.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/sampletitanium001/Resources/DataMgmt/DataState.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/sampletitanium001/Resources/DataMgmt/email.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/sampletitanium001/Resources/DataMgmt/FileSys.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/sampletitanium001/Resources/animation/animate.js"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/sampletitanium001/Resources/animation/animation1.js"/>
-</editors>
-<item historyLabel="photoGallery.js" index="1">
-<position/>
-</item>
-<item historyLabel="captureScreen.js" index="3">
-<position/>
-</item>
-<item historyLabel="camera.js" index="0">
-<position info="not_deleted" x="1140" y="0"/>
-</item>
-<item historyLabel="captureScreen.js" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="camera.js" index="0">
-<position info="not_deleted" x="247" y="0"/>
-</item>
-<item historyLabel="captureScreen.js" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ApplicationTabGroup.js" index="2">
-<position/>
-</item>
-<item historyLabel="camera.js" index="0">
-<position info="not_deleted" x="356" y="0"/>
-</item>
-<item historyLabel="photoGallery.js" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="camera.js" index="0">
-<position info="not_deleted" x="1302" y="0"/>
-</item>
-<item historyLabel="photoGallery.js" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="camera.js" index="0">
-<position info="not_deleted" x="1302" y="0"/>
-</item>
-<item historyLabel="photoGallery.js" index="1">
-<position info="not_deleted" x="135" y="0"/>
-</item>
-<item historyLabel="camera.js" index="0">
-<position info="not_deleted" x="1369" y="0"/>
-</item>
-<item historyLabel="ApplicationTabGroup.js" index="2">
-<position/>
-</item>
-<item historyLabel="photoGallery.js" index="1">
-<position info="not_deleted" x="386" y="0"/>
-</item>
-<item historyLabel="captureScreen.js" index="4">
-<position/>
-</item>
-<item historyLabel="ApplicationTabGroup.js" index="2">
-<position/>
-</item>
-<item historyLabel="captureScreen.js" index="4">
-<position/>
-</item>
-<item historyLabel="camera.js" index="0">
-<position info="not_deleted" x="1113" y="5"/>
-</item>
-<item historyLabel="captureScreen.js" index="4">
-<position/>
-</item>
-<item historyLabel="camera.js" index="0">
-<position info="not_deleted" x="697" y="0"/>
-</item>
-<item historyLabel="photoGallery.js" index="1">
-<position info="not_deleted" x="386" y="0"/>
-</item>
-<item historyLabel="camera.js" index="0">
-<position info="not_deleted" x="697" y="0"/>
-</item>
-<item historyLabel="captureScreen.js" index="4">
-<position info="not_deleted" x="800" y="464"/>
-</item>
-<item historyLabel="ApplicationTabGroup.js" index="2">
-<position/>
-</item>
-<item historyLabel="captureScreen.js" index="4">
-<position info="not_deleted" x="800" y="464"/>
-</item>
-<item historyLabel="camera.js" index="0">
-<position info="not_deleted" x="1871" y="0"/>
-</item>
-<item historyLabel="captureScreen.js" index="4">
-<position info="not_deleted" x="208" y="312"/>
-</item>
-<item historyLabel="camera.js" index="0">
-<position info="not_deleted" x="976" y="0"/>
-</item>
-<item historyLabel="captureScreen.js" index="4">
-<position info="not_deleted" x="312" y="0"/>
-</item>
-<item historyLabel="camera.js" index="0">
-<position info="not_deleted" x="1206" y="0"/>
-</item>
-<item historyLabel="audio.js" index="5">
-<position info="not_deleted" x="144" y="0"/>
-</item>
-<item historyLabel="orientation.js" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="orientation.js" index="6">
-<position info="not_deleted" x="107" y="0"/>
-</item>
-<item historyLabel="orientation.js" index="6">
-<position info="not_deleted" x="106" y="0"/>
-</item>
-<item historyLabel="orientation.js" index="6">
-<position info="not_deleted" x="81" y="0"/>
-</item>
-<item historyLabel="orientation.js" index="6">
-<position info="not_deleted" x="223" y="0"/>
-</item>
-<item historyLabel="DataState.js" index="7">
-<position info="not_deleted" x="210" y="0"/>
-</item>
-<item historyLabel="email.js" index="8">
-<position/>
-</item>
-<item historyLabel="DataState.js" index="7">
-<position info="not_deleted" x="210" y="0"/>
-</item>
-<item historyLabel="FileSys.js" index="9">
-<position info="not_deleted" x="286" y="0"/>
-</item>
-<item historyLabel="email.js" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="FileSys.js" index="9">
-<position info="not_deleted" x="405" y="0"/>
-</item>
-<item historyLabel="DataState.js" index="7">
-<position info="not_deleted" x="210" y="0"/>
-</item>
-<item historyLabel="animate.js" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="animation1.js" index="11">
-<position info="not_deleted" x="174" y="0"/>
-</item>
-<item historyLabel="ApplicationTabGroup.js" index="2">
-<position info="not_deleted" x="2038" y="0"/>
-</item>
-<item historyLabel="animation1.js" index="11">
-<position info="not_deleted" x="883" y="0"/>
-</item>
-<item active="true" historyLabel="ApplicationTabGroup.js" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
-</trimArea>
 <trimArea IMemento.internal.id="1024">
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
@@ -332,6 +170,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.appcelerator.titanium.ui.ide.tiappEditor" name="tiapp.xml" tooltip="sampletitanium001/tiapp.xml">
+<persistable path="/sampletitanium001/tiapp.xml"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="ApplicationTabGroup.js" tooltip="sampletitanium001/Resources/ui/common/ApplicationTabGroup.js">
 <persistable path="/sampletitanium001/Resources/ui/common/ApplicationTabGroup.js"/>
 </file>
@@ -364,9 +205,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.text" name="README" tooltip="sampletitanium001/Resources/mobileweb/splash/README">
 <persistable path="/sampletitanium001/Resources/mobileweb/splash/README"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.appcelerator.titanium.ui.ide.tiappEditor" name="tiapp.xml" tooltip="sampletitanium001/tiapp.xml">
-<persistable path="/sampletitanium001/tiapp.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.appcelerator.titanium.ui.ide.tiappEditor" name="tiapp.xml" tooltip="/Users/admin/Documents/workspace/Mobileprojects/testTitanium1/tiapp.xml">
 <persistable uri="file:/Users/admin/Documents/workspace/Mobileprojects/testTitanium1/tiapp.xml"/>
